@@ -1,0 +1,209 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.happy-scroll-bar {
+  display: none;
+}
+
+.happy-scroll-content {
+  /* border: none !important; */
+  border-right: 1px solid transparent !important;
+  border-bottom: 1px solid transparent !important;
+  height: 100%;
+  box-sizing: border-box !important;
+  width: 100%;
+}
+
+.happy-scroll-bar {
+  border-radius: 0 !important;
+  background-clip: padding-box !important;
+  border-left: 0.02rem solid rgba(52, 213, 207, 0.4) !important;
+  border-right: 0.02rem solid rgba(52, 213, 207, 0.4) !important;
+  background-color: rgb(48, 205, 195) !important;
+  opacity: 0.7;
+}
+
+.happy-scroll-container {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+}
+/* 滚动条样式 */
+/*滚动条整体部分,必须要设置*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  /* background-color: #ccc; */
+}
+
+/*滚动条的轨道*/
+/*滚动条的滑块按钮*/
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  border: 5px solid transparent;
+}
+
+/*滚动条的上下两端的按钮*/
+::-webkit-scrollbar-button {
+  height: 5px;
+  background-color: #ccc;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 20px;
+  background-clip: content-box;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.can-click{
+  color: #0021FF;
+}
+
+.activeReq .el-form-item__label::before{
+  content: '*';
+  color: #F56C6C;
+  margin-right: 4px;
+}
